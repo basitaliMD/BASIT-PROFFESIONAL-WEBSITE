@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit Legend - Professional Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0000FF;
+        }
+        header {
+            background-color: #FFD700;
+            color: rgb(0, 0, 0);
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0000FF;
+        }
+        nav a {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(255, 255, 255);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Basit Legend</h1>
+        <p>Aspiring Software Engineer | Jr. Inter Student at NARAYANA College</p>
+    </header>
+    <nav>
+        <a href="#HOME">Home</a>
+        <a href="#ABOUT">About Me</a>
+        <a href="#GOALS">Goals</a>
+        <a href="#CONTACT">Contact Me</a>
+        <a href="#ABOUT-FAMILY">About-Family</a>
+    </nav>
+    <div class="container">
+        <section id="HOME">
+            <h2>Welcome</h2>
+            <p>Welcome to my professional portfolio website. Here you'll find information about my education, goals, and how to contact me.</p>
+        </section>
+        <section id="ABOUT">
+            <h2>About Me</h2>
+            <p>Hello, Myself Basit Legend. I am a student, and my hobbies are playing games and creating new things.</p>
+            <p><strong>Education:</strong> Jr. Inter in NARAYANA College, Manikonda.</p>
+            <p><strong>Hobbies:</strong> Playing games and creating new things.</p>
+            <p><strong>Favorite Genre:</strong> Action, Horror & Comedy.</p>
+        </section>
+        <section id="GOALS">
+            <h2>Goals</h2>
+            <p><strong>Short-term Goal:</strong> Crack IIT JEE.</p>
+            <p><strong>Long-term Goal:</strong> Become a software engineer.</p>
+        </section>
+        <section id="ABOUT-FAMILY">
+            <h2>About-Family</h2>
+            <p><strong>My Father:</strong> FIROZ ALI MD.</p>
+            <p><strong>My Mother:</strong> TABASSUM ALI.</p>
+            <p><strong>My Siblings(1 Sister):</strong> MD SANA KAUSAR.</p>
+        </section>
+        <section id="CONTACT">
+            <h2>Contact Me</h2>
+            <p><strong>Email:</strong> <a href="mailto:basitalimd1@gmail.com">basitalimd1@gmail.com</a></p>
+            <p><strong>Phone Number:</strong> 72076 22478</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
